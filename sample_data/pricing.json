@@ -1,0 +1,16 @@
+{
+  "currency": "USD",
+  "inactive_days": 90,
+  "products": {
+    "Jira": {
+      "monthly_seat_price": "12.00",
+      "billing_mode": "monthly_flexible",
+      "minimum_billable_seats": 4
+    },
+    "Confluence": {
+      "monthly_seat_price": "8.00",
+      "billing_mode": "committed_term",
+      "minimum_billable_seats": 5
+    }
+  }
+}

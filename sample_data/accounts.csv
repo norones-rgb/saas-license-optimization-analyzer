@@ -1,0 +1,13 @@
+product,account_id,enabled,licensed,last_active,exception_reason
+Jira,jira-001,true,true,2026-10-30,
+Jira,jira-002,true,true,2026-05-01,
+Jira,jira-003,false,true,2026-10-15,
+Jira,jira-004,false,true,2026-04-01,
+Jira,jira-005,true,true,2026-03-01,Approved leave; retain access pending owner review
+Jira,jira-006,true,true,,
+Jira,jira-007,true,false,2026-10-28,
+Confluence,conf-001,true,true,2026-10-30,
+Confluence,conf-002,true,true,2026-06-01,
+Confluence,conf-003,false,true,2026-10-01,
+Confluence,conf-004,true,true,2026-03-01,Documented emergency access exception
+Confluence,conf-005,true,true,,

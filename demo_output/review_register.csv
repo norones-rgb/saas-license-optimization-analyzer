@@ -1,0 +1,12 @@
+product,account_id,classification,reasons,days_inactive,exception_reason,action
+Confluence,conf-001,RETAIN,,3,,Retain or investigate evidence; no automatic change
+Confluence,conf-002,REVIEW_CANDIDATE,INACTIVE_LICENSED,154,,Owner approval required before any license change
+Confluence,conf-003,REVIEW_CANDIDATE,DISABLED_LICENSED,32,,Owner approval required before any license change
+Confluence,conf-004,EXEMPT_RETAIN,INACTIVE_LICENSED,246,Documented emergency access exception,Retain or investigate evidence; no automatic change
+Confluence,conf-005,MISSING_ACTIVITY_EVIDENCE,,,,Retain or investigate evidence; no automatic change
+Jira,jira-001,RETAIN,,3,,Retain or investigate evidence; no automatic change
+Jira,jira-002,REVIEW_CANDIDATE,INACTIVE_LICENSED,185,,Owner approval required before any license change
+Jira,jira-003,REVIEW_CANDIDATE,DISABLED_LICENSED,18,,Owner approval required before any license change
+Jira,jira-004,REVIEW_CANDIDATE,DISABLED_LICENSED; INACTIVE_LICENSED,215,,Owner approval required before any license change
+Jira,jira-005,EXEMPT_RETAIN,INACTIVE_LICENSED,246,Approved leave; retain access pending owner review,Retain or investigate evidence; no automatic change
+Jira,jira-006,MISSING_ACTIVITY_EVIDENCE,,,,Retain or investigate evidence; no automatic change

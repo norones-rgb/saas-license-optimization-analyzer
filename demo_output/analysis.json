@@ -1,0 +1,163 @@
+{
+  "assessment_date": "2026-11-02",
+  "currency": "USD",
+  "inactive_days": 90,
+  "scenario": "All review candidates approved and removed; pricing assumptions hold",
+  "assigned_seats": 11,
+  "review_candidates": 5,
+  "candidate_monthly_seat_value_usd": "52.00",
+  "potential_monthly_bill_reduction_usd": "24.00",
+  "annualized_run_rate_reduction_usd": "288.00",
+  "products": [
+    {
+      "product": "Confluence",
+      "billing_mode": "committed_term",
+      "exported_accounts": 5,
+      "assigned_seats": 5,
+      "review_candidates": 2,
+      "exempt_seats": 1,
+      "missing_activity_seats": 1,
+      "minimum_billable_seats": 5,
+      "monthly_seat_price_usd": "8.00",
+      "modeled_billable_seats_before": 5,
+      "modeled_billable_seats_after_approval": 5,
+      "modeled_monthly_baseline_usd": "40.00",
+      "candidate_monthly_seat_value_usd": "16.00",
+      "potential_monthly_bill_reduction_usd": "0.00",
+      "annualized_run_rate_reduction_usd": "0.00"
+    },
+    {
+      "product": "Jira",
+      "billing_mode": "monthly_flexible",
+      "exported_accounts": 7,
+      "assigned_seats": 6,
+      "review_candidates": 3,
+      "exempt_seats": 1,
+      "missing_activity_seats": 1,
+      "minimum_billable_seats": 4,
+      "monthly_seat_price_usd": "12.00",
+      "modeled_billable_seats_before": 6,
+      "modeled_billable_seats_after_approval": 4,
+      "modeled_monthly_baseline_usd": "72.00",
+      "candidate_monthly_seat_value_usd": "36.00",
+      "potential_monthly_bill_reduction_usd": "24.00",
+      "annualized_run_rate_reduction_usd": "288.00"
+    }
+  ],
+  "review_register": [
+    {
+      "product": "Confluence",
+      "account_id": "conf-001",
+      "classification": "RETAIN",
+      "reasons": [],
+      "days_inactive": 3,
+      "exception_reason": "",
+      "action": "Retain or investigate evidence; no automatic change"
+    },
+    {
+      "product": "Confluence",
+      "account_id": "conf-002",
+      "classification": "REVIEW_CANDIDATE",
+      "reasons": [
+        "INACTIVE_LICENSED"
+      ],
+      "days_inactive": 154,
+      "exception_reason": "",
+      "action": "Owner approval required before any license change"
+    },
+    {
+      "product": "Confluence",
+      "account_id": "conf-003",
+      "classification": "REVIEW_CANDIDATE",
+      "reasons": [
+        "DISABLED_LICENSED"
+      ],
+      "days_inactive": 32,
+      "exception_reason": "",
+      "action": "Owner approval required before any license change"
+    },
+    {
+      "product": "Confluence",
+      "account_id": "conf-004",
+      "classification": "EXEMPT_RETAIN",
+      "reasons": [
+        "INACTIVE_LICENSED"
+      ],
+      "days_inactive": 246,
+      "exception_reason": "Documented emergency access exception",
+      "action": "Retain or investigate evidence; no automatic change"
+    },
+    {
+      "product": "Confluence",
+      "account_id": "conf-005",
+      "classification": "MISSING_ACTIVITY_EVIDENCE",
+      "reasons": [],
+      "days_inactive": null,
+      "exception_reason": "",
+      "action": "Retain or investigate evidence; no automatic change"
+    },
+    {
+      "product": "Jira",
+      "account_id": "jira-001",
+      "classification": "RETAIN",
+      "reasons": [],
+      "days_inactive": 3,
+      "exception_reason": "",
+      "action": "Retain or investigate evidence; no automatic change"
+    },
+    {
+      "product": "Jira",
+      "account_id": "jira-002",
+      "classification": "REVIEW_CANDIDATE",
+      "reasons": [
+        "INACTIVE_LICENSED"
+      ],
+      "days_inactive": 185,
+      "exception_reason": "",
+      "action": "Owner approval required before any license change"
+    },
+    {
+      "product": "Jira",
+      "account_id": "jira-003",
+      "classification": "REVIEW_CANDIDATE",
+      "reasons": [
+        "DISABLED_LICENSED"
+      ],
+      "days_inactive": 18,
+      "exception_reason": "",
+      "action": "Owner approval required before any license change"
+    },
+    {
+      "product": "Jira",
+      "account_id": "jira-004",
+      "classification": "REVIEW_CANDIDATE",
+      "reasons": [
+        "DISABLED_LICENSED",
+        "INACTIVE_LICENSED"
+      ],
+      "days_inactive": 215,
+      "exception_reason": "",
+      "action": "Owner approval required before any license change"
+    },
+    {
+      "product": "Jira",
+      "account_id": "jira-005",
+      "classification": "EXEMPT_RETAIN",
+      "reasons": [
+        "INACTIVE_LICENSED"
+      ],
+      "days_inactive": 246,
+      "exception_reason": "Approved leave; retain access pending owner review",
+      "action": "Retain or investigate evidence; no automatic change"
+    },
+    {
+      "product": "Jira",
+      "account_id": "jira-006",
+      "classification": "MISSING_ACTIVITY_EVIDENCE",
+      "reasons": [],
+      "days_inactive": null,
+      "exception_reason": "",
+      "action": "Retain or investigate evidence; no automatic change"
+    }
+  ]
+}
